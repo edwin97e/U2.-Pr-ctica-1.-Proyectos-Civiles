@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".Main5Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripcion o ID"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:id="@+id/text1"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:id="@+id/edescripcion2"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="econsultar"
+        android:layout_below="@+id/edescripcion2"
+        android:id="@+id/econsultar"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripcion: "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/econsultar"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/text2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/text2"
+        android:layout_below="@id/econsultar"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/edescripcion"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:layout_below="@+id/edescripcion"
+        android:id="@+id/eliminar"
+        android:layout_marginTop="90dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cerrar"
+        android:layout_below="@+id/eliminar"
+        android:id="@+id/cerrar"
+        android:layout_marginTop="50dp"
+        />
+
+
+</RelativeLayout>
